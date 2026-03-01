@@ -12,7 +12,7 @@ int main() {
     for(int i=0; i<n; i++) {
         if(arr[i] % 2 == 0) {
             arr1[count] = arr[i];
-            count++;
+            count = count + 1;
         }
     }
     for(int i = 0; i<n; i++) {
